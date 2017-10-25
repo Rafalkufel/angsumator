@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  // properties
+  liczba_a = 12;
+  liczba_b = 4;
+  liczba_c = this.liczba_a + this.liczba_b;
+
+  obliczamy() {
+    this.liczba_c = this.liczba_a + this.liczba_b
+  }
+
+
 }
